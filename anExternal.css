@@ -1,3 +1,7 @@
-p {
+p#Arial {
     font: Arial
+}
+
+p#Times {
+    font: Times New Roman
 }
