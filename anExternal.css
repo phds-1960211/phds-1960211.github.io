@@ -1,7 +1,9 @@
-p#Arial {
-    font-family: Arial
+#Arial {
+    font-family: Arial;
+    color: Blue
 }
 
-p#Times {
-    font-family: "Times New Roman"
+#Times {
+    font-family: "Times New Roman";
+    color: Red
 }
