@@ -98,17 +98,20 @@ html {
       font-size: 12pt; } }
   @media screen and (max-width: 480px) {
     html {
-      font-size: 11pt; } }
+      font-size: 15pt; } }
 
 body {
   background-color: #ffffff;
-  color: #444444; }
+  color: #1b29a8; }
 
 body, input, select, textarea {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.65; }
+  font-family: Roboto;
+  font-weight: 10000;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-shadow: 1px 1px blue;
+  text-decoration-color: darkred;
+  line-height: 1; }
 
 a {
   -moz-transition: color 0.2s ease-in-out;
@@ -120,7 +123,7 @@ a {
     text-decoration: none; }
 
 strong, b {
-  font-weight: 600; }
+  font-weight: 500; }
 
 em, i {
   font-style: italic; }
@@ -129,8 +132,8 @@ p {
   margin: 0 0 2rem 0; }
 
 header.special {
-  text-align: center;
-  margin-bottom: 4rem; }
+  text-align: left;
+  margin-bottom: 5rem; }
   header.special p {
     max-width: 75%;
     margin-left: auto;
@@ -138,11 +141,12 @@ header.special {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1;
+  color: violet;
   text-transform: uppercase;
   margin: 0 0 1.5rem 0; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: inherit;
+    color: violet;
     text-decoration: none; }
 
 h1 {
@@ -150,7 +154,7 @@ h1 {
   line-height: 1.2; }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1.3; }
 
 h3 {
@@ -212,7 +216,7 @@ pre {
     overflow-x: auto; }
 
 hr {
-  border: 0;
+  border: teal;
   border-bottom: solid 1px;
   margin: 2rem 0; }
   hr.major {
